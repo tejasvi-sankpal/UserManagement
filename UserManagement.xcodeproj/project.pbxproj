@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		15E649D01DF6927C008779EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E649CF1DF6927C008779EA /* main.m */; };
 		15E649D31DF6927C008779EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E649D21DF6927C008779EA /* AppDelegate.m */; };
-		15E649D61DF6927C008779EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E649D51DF6927C008779EA /* ViewController.m */; };
 		15E649D91DF6927C008779EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E649D71DF6927C008779EA /* Main.storyboard */; };
 		15E649DC1DF6927C008779EA /* UserManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15E649DA1DF6927C008779EA /* UserManagement.xcdatamodeld */; };
 		15E649DE1DF6927C008779EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E649DD1DF6927C008779EA /* Assets.xcassets */; };
 		15E649E11DF6927C008779EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E649DF1DF6927C008779EA /* LaunchScreen.storyboard */; };
 		15E649EC1DF6927C008779EA /* UserManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E649EB1DF6927C008779EA /* UserManagementTests.m */; };
 		15E649F71DF6927C008779EA /* UserManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E649F61DF6927C008779EA /* UserManagementUITests.m */; };
+		15E64A071DF69543008779EA /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A061DF69543008779EA /* AddUserViewController.m */; };
+		15E64A0B1DF696D5008779EA /* UIColor+UserAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A0A1DF696D5008779EA /* UIColor+UserAdditions.m */; };
+		15E64A0E1DF6BD15008779EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A0D1DF6BD15008779EA /* ViewController.m */; };
+		15E64A191DF6DD94008779EA /* UserListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A181DF6DD94008779EA /* UserListTableViewCell.m */; };
+		15E64A1C1DF6E44E008779EA /* UtilityFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A1B1DF6E44E008779EA /* UtilityFactory.m */; };
+		15E64A241DF6F50C008779EA /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A211DF6F50C008779EA /* User+CoreDataProperties.m */; };
+		15E64A251DF6F50C008779EA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E64A231DF6F50C008779EA /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		15E649CF1DF6927C008779EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15E649D11DF6927C008779EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15E649D21DF6927C008779EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15E649D41DF6927C008779EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15E649D51DF6927C008779EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		15E649D81DF6927C008779EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15E649DB1DF6927C008779EA /* UserManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserManagement.xcdatamodel; sourceTree = "<group>"; };
 		15E649DD1DF6927C008779EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,20 @@
 		15E649F21DF6927C008779EA /* UserManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E649F61DF6927C008779EA /* UserManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManagementUITests.m; sourceTree = "<group>"; };
 		15E649F81DF6927C008779EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E64A051DF69543008779EA /* AddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddUserViewController.h; sourceTree = "<group>"; };
+		15E64A061DF69543008779EA /* AddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddUserViewController.m; sourceTree = "<group>"; };
+		15E64A091DF696D5008779EA /* UIColor+UserAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UserAdditions.h"; sourceTree = "<group>"; };
+		15E64A0A1DF696D5008779EA /* UIColor+UserAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UserAdditions.m"; sourceTree = "<group>"; };
+		15E64A0C1DF6BD15008779EA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15E64A0D1DF6BD15008779EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15E64A171DF6DD94008779EA /* UserListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListTableViewCell.h; sourceTree = "<group>"; };
+		15E64A181DF6DD94008779EA /* UserListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListTableViewCell.m; sourceTree = "<group>"; };
+		15E64A1A1DF6E44E008779EA /* UtilityFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityFactory.h; sourceTree = "<group>"; };
+		15E64A1B1DF6E44E008779EA /* UtilityFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFactory.m; sourceTree = "<group>"; };
+		15E64A201DF6F50C008779EA /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		15E64A211DF6F50C008779EA /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		15E64A221DF6F50C008779EA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		15E64A231DF6F50C008779EA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +121,12 @@
 		15E649CD1DF6927C008779EA /* UserManagement */ = {
 			isa = PBXGroup;
 			children = (
+				15E64A161DF6DD7D008779EA /* CustomTableviewCells */,
+				15E64A0F1DF6C890008779EA /* ModalClasess */,
+				15E64A081DF69688008779EA /* Utilities */,
+				15E64A041DF6951C008779EA /* ViewControllers */,
 				15E649D11DF6927C008779EA /* AppDelegate.h */,
 				15E649D21DF6927C008779EA /* AppDelegate.m */,
-				15E649D41DF6927C008779EA /* ViewController.h */,
-				15E649D51DF6927C008779EA /* ViewController.m */,
 				15E649D71DF6927C008779EA /* Main.storyboard */,
 				15E649DD1DF6927C008779EA /* Assets.xcassets */,
 				15E649DF1DF6927C008779EA /* LaunchScreen.storyboard */,
@@ -141,6 +161,48 @@
 				15E649F81DF6927C008779EA /* Info.plist */,
 			);
 			path = UserManagementUITests;
+			sourceTree = "<group>";
+		};
+		15E64A041DF6951C008779EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				15E64A0C1DF6BD15008779EA /* ViewController.h */,
+				15E64A0D1DF6BD15008779EA /* ViewController.m */,
+				15E64A051DF69543008779EA /* AddUserViewController.h */,
+				15E64A061DF69543008779EA /* AddUserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15E64A081DF69688008779EA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				15E64A091DF696D5008779EA /* UIColor+UserAdditions.h */,
+				15E64A0A1DF696D5008779EA /* UIColor+UserAdditions.m */,
+				15E64A1A1DF6E44E008779EA /* UtilityFactory.h */,
+				15E64A1B1DF6E44E008779EA /* UtilityFactory.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		15E64A0F1DF6C890008779EA /* ModalClasess */ = {
+			isa = PBXGroup;
+			children = (
+				15E64A201DF6F50C008779EA /* User+CoreDataProperties.h */,
+				15E64A211DF6F50C008779EA /* User+CoreDataProperties.m */,
+				15E64A221DF6F50C008779EA /* User.h */,
+				15E64A231DF6F50C008779EA /* User.m */,
+			);
+			path = ModalClasess;
+			sourceTree = "<group>";
+		};
+		15E64A161DF6DD7D008779EA /* CustomTableviewCells */ = {
+			isa = PBXGroup;
+			children = (
+				15E64A171DF6DD94008779EA /* UserListTableViewCell.h */,
+				15E64A181DF6DD94008779EA /* UserListTableViewCell.m */,
+			);
+			path = CustomTableviewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +272,7 @@
 				TargetAttributes = {
 					15E649CA1DF6927C008779EA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ENS6FPPJ4M;
 					};
 					15E649E61DF6927C008779EA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E649D61DF6927C008779EA /* ViewController.m in Sources */,
+				15E64A251DF6F50C008779EA /* User.m in Sources */,
+				15E64A191DF6DD94008779EA /* UserListTableViewCell.m in Sources */,
+				15E64A0E1DF6BD15008779EA /* ViewController.m in Sources */,
+				15E64A0B1DF696D5008779EA /* UIColor+UserAdditions.m in Sources */,
+				15E64A241DF6F50C008779EA /* User+CoreDataProperties.m in Sources */,
+				15E64A071DF69543008779EA /* AddUserViewController.m in Sources */,
 				15E649D31DF6927C008779EA /* AppDelegate.m in Sources */,
+				15E64A1C1DF6E44E008779EA /* UtilityFactory.m in Sources */,
 				15E649D01DF6927C008779EA /* main.m in Sources */,
 				15E649DC1DF6927C008779EA /* UserManagement.xcdatamodeld in Sources */,
 			);
@@ -417,10 +486,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UserManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innoplexus.UserManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,10 +499,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UserManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innoplexus.UserManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -500,6 +573,7 @@
 				15E649FD1DF6927C008779EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E649FE1DF6927C008779EA /* Build configuration list for PBXNativeTarget "UserManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +582,7 @@
 				15E64A001DF6927C008779EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E64A011DF6927C008779EA /* Build configuration list for PBXNativeTarget "UserManagementUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +591,7 @@
 				15E64A031DF6927C008779EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
